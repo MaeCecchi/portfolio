@@ -83,6 +83,7 @@
 
   .card-image {
     position: relative;
+    height:250px;
 
     // Image background for content
     img {
@@ -155,4 +156,8 @@
 .card-border-dashed {
   border:1px dashed darken($card-bg-color,25%);
   box-shadow: none;
+  font-size:1.3rem;
+  color:#666666;
 }
+
+
