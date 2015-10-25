@@ -151,3 +151,8 @@
 
   }
 }
+
+.card-border-dashed {
+  border:1px dashed darken($card-bg-color,25%);
+  box-shadow: none;
+}

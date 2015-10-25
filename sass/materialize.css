@@ -5275,13 +5275,13 @@ nav ul a span.badge {
         margin-left: 100%; } }
 
 nav {
-  color: #fff;
+  color: #333;
   background-color: #ee6e73;
   width: 100%;
   height: 56px;
   line-height: 56px; }
   nav a {
-    color: #fff; }
+    color: #333; }
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
@@ -5302,7 +5302,7 @@ nav {
       line-height: 56px; }
   nav .brand-logo {
     position: absolute;
-    color: #fff;
+    color: #333;
     display: inline-block;
     font-size: 2.1rem;
     padding: 0;
@@ -5351,7 +5351,7 @@ nav {
         background-color: rgba(0, 0, 0, 0.1); }
     nav ul a {
       font-size: 1rem;
-      color: #fff;
+      color: #333;
       display: block;
       padding: 0 15px; }
     nav ul.left {
@@ -5377,7 +5377,7 @@ nav {
         -ms-transition: color 0.3s;
         transition: color 0.3s; }
       nav .input-field label.active i {
-        color: #fff; }
+        color: #333; }
       nav .input-field label.active {
         -webkit-transform: translateY(0);
         -moz-transform: translateY(0);
@@ -5424,7 +5424,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87); }
   @media only screen and (min-width: 0) {
@@ -5558,6 +5558,18 @@ small {
     .flow-text {
       font-size: 1.2rem; } }
 
+#logo-container h1 {
+  font-size: 1.20rem;
+  margin: 0rem 0 1.68rem 0; }
+
+#logo-container h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.70rem;
+  margin: 0.2rem 0 0rem 0; }
+
+.font-bold {
+  font-weight: bold; }
+
 .card-panel {
   transition: box-shadow .25s;
   padding: 20px;
@@ -5658,6 +5670,10 @@ small {
     .card .card-reveal .card-title {
       cursor: pointer;
       display: block; }
+
+.card-border-dashed {
+  border: 1px dashed #bfbfbf;
+  box-shadow: none; }
 
 #toast-container {
   display: block;
