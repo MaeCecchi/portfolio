@@ -5393,6 +5393,27 @@ nav {
   .navbar-fixed nav {
     position: fixed; }
 
+
+.header-menu {
+  background: url("../img/bg-header.jpg");
+  background-size: cover;
+  margin-top: -15px;
+  height: 33%;}
+
+
+.picture img {
+  width: 100px;
+  margin-top: 25px;
+}
+
+.header-menu p, .header-menu p a {
+  color:#FFFFFF;
+  margin: 0;
+  padding: 0;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
